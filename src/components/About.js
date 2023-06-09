@@ -1,20 +1,11 @@
-// import Product from "./Product";
 
-function About(){
+import React from "react";
 
-    // const arr=[1,2,3,4,5];
-    return(
+function  About(){
 
-        <div>
-            {/* {
-                arr.map((i)=>(
-                <Product value={i}/>
-                )) 
-            } */}
-            <p>about</p>
-        </div>
-    );
+    return(<div>
 
+
+    </div>)
 }
-
 export default About;

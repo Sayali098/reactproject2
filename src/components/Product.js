@@ -1,20 +1,9 @@
-import { useParams } from "react-router-dom";
+import React from "react";
 
-// function Product({value})
-function Product()
-{
-    
-  
-    const param=useParams();
-    return(
-     
-        <div>
-            <p>{param.id}</p>
-            
-             {/* <h4>{value}</h4> */}
-        </div>
-    );
 
+function  Product(){
+    return(<div>
+
+    </div>)
 }
-
 export default Product;
